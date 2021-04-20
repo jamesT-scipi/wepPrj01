@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: ''
+  label: Side Label
+  create: all
+  match: "**/*"
+- type: heading
+  label: Side Label
+- type: directory
   path: content
   label: Post
   create: documents

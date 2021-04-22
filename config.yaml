@@ -69,6 +69,8 @@ params:
     URL: "#"
 menu:
   main:
+  - name: MAIN TTT
+    weight: 4
   - URL: abc.def
     name: Starter
     weight: 3
